@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <svg fill="none" viewBox="0 0 1200 750" width="1400" height="830" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject width="100%" height="100%">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                <style>
+                    @keyframes spinAround {
+                        0% { background-position: 0 0 }
+                        100% { background-position: 355px 0 }
+                    }
+                    @keyframes stars {
+                    0% { background-position: 0 100% }
+                    100% { background-position: 0 0 }
+                    }
+                    .container {
+                        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+                        display: flex;
+                        flex-direction: column;
+                        align-items: left;
+                        justify-content: center;
+                        margin: 0;
+                        width: 100%;
+                        height: 750px;
+                        background-image: url(./images/4841279.webp);
+                            
+                        background-position: center;
+                        animation: stars 30s linear infinite alternate;
+                                    border-radius: 10px;
+                                    color: white;
+                        position: relative;
+                    }
+                    
+                    .earth {
+                        background-image: url(./images/HyL4_nGG_400x400.jpg);                      
+                        background-size: cover;
+                        border: 2px solid #000;
+                        border-radius: 50%;
+                        width: 240px;
+                        height: 240px;
+                        animation: spinAround 7s linear 0s infinite alternate;
+                        box-shadow: 0 0 25px RGBA(255,255,255, 0.25),
+                                    -8px -8px 15px #000 inset,
+                                    2px 2px 25px #000 inset,
+                                    -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+                                    25px 25px 45px RGBA(0,0,0, 0.45) inset;
+                        position: absolute;
+                        top: 50%;
+                        left: 80%;
+                        transform: translate(-50%, -50%) rotateX(5deg) rotateY(5deg) rotateZ(5deg);
+                    }
+                </style>
+        
+                <div class="container">
+                    <div class="earth"></div>
+                        <div class="pw-container">
+                            <div class="pw-header">
+                                <div class="pw">
+                                    <span id="pw">Mật khẩu</span>
+                                    <button id="copy">Copy</button>
+                                </div>
+                            </div>
+                            <div class="pw-body">
+                                <div class="form-control">
+                                    <label for="len">Độ dài mật khẩu</label>
+                                    <input id="len" value="8" type="number" min="2" max="30" />
+                                </div>
+                                <div class="form-control">
+                                    <label for="upper">Bao gồm ký tự viết hoa</label>
+                                    <input id="upper" type="checkbox" />
+                                </div>
+                                <div class="form-control">
+                                    <label for="lower">Bao gồm ký tự viết thường</label>
+                                    <input id="lower" type="checkbox" />
+                                </div>
+                                <div class="form-control">
+                                    <label for="number">Bao gồm chữ số</label>
+                                    <input id="number" type="checkbox" />
+                                </div>
+                                <div class="form-control">
+                                    <label for="symbol">Bao gồm các ký tự đặc biệt</label>
+                                    <input id="symbol" type="checkbox" />
+                                </div>
+                                <button class="generate" id="generate">
+                                    Tạo mật khẩu
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </foreignObject>
+        </svg> 
+    </body>
+</html>
