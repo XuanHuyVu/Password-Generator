@@ -2,8 +2,8 @@
 
 ## Demo 👁️
 <div style="display: flex">
-    <image src="./images/demo.jpeg" width="600px" height="350px" />
-    <image src="./images/demo1.png" width="400px" height="350px" />
+    <image src="./images/demo.jpeg" width="550px" height="300px" />
+    <image src="./images/demo1.png" width="350px" height="300px" />
 </div>
 
 ## Function
