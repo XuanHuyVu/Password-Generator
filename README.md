@@ -1,9 +1,11 @@
 # Password Generator
 
 ## Demo 👁️
-<div style="display: flex">
-    <image src="./images/demo.jpeg" width="550px" height="300px" />
+<div>
+    <image src="./images/demo.jpeg" width="650px" height="400px" />
+    <p>Site Overview</p>
     <image src="./images/demo1.png" width="350px" height="300px" />
+    <p>Password Components</p>
 </div>
 
 ## Function
