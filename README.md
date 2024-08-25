@@ -2,9 +2,9 @@
 
 ## Demo 👁️
 <div>
-    <image src="./images/demo.jpeg" width="750px" height="500px" />
+    <image src="./images/demo.jpeg" width="800px" height="500px" />
     <p>Site Overview</p>
-    <image src="./images/demo1.png" width="450px" height="400px" />
+    <image src="./images/demo1.png" width="460px" height="400px" />
     <p>Password Components</p>
 </div>
 
