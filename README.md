@@ -9,7 +9,7 @@
 </div>
 
 ## Function
-- [x] Generate password between 2 and 30 in lenght with random letters include:
+✔️ Generate password between 2 and 30 in lenght with random letters include:
 + Uppercase letters
 + Lowercase letters
 + Numbers
